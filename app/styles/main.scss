@@ -1,0 +1,16 @@
+ // Bourbon & Neat
+@import '../../bower_components/bourbon/dist/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+
+// Custom Styles
+.search_results{
+  width:728px;
+  height:3803px;
+  float:right;
+  li{
+    width:224px;
+    height:220px;
+    margin:0;
+    float:left;
+;  }
+}
