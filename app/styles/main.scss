@@ -19,11 +19,12 @@ body{
   width:222px;
   float:left;
   background-color:white;
+  overflow:hidden;
 
   .left_nav{
     list-style:none;
     li{
-      border-bottom-style:solid;
+
       border-width:1px;
       border-color
 
@@ -60,6 +61,7 @@ body{
     border-style:solid;
     border-width:1px;
     position:relative;
+    box-shadow: 0px 6px 19px 0px rgba(0,0,0,0.86);
 
     img{
       height:170px;
@@ -85,7 +87,7 @@ body{
         font-size:11px;
         clear: both;
         bottom: 4px;
-        left: 2px;
+        left: 4px;
         color:gray;
 
       }
