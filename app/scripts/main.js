@@ -9,13 +9,13 @@ var item;
 
 
 items.forEach(function(item){
-  itemTitle = "<p class='titles'>"+ item.title +"</p>";
+  itemTitle = "<a class='titles'>"+ item.title +"</a>";
   console.log(itemTitle);
-  shopName = "<p class='shops'>"+ item.Shop.shop_name +"</p>";
+  shopName = "<a class='shops'>"+ item.Shop.shop_name +"</a>";
   console.log(shopName);
-  itemPrice = "<p class='prices'>"+"$"+(item.price)+"</p>";
+  itemPrice = "<a class='prices'>"+"$"+(item.price)+"</a>";
   console.log(itemPrice);
-  currencyCode = "<p class='currency'>"+item.currency_code+"</p>";
+  currencyCode = "<a class='currency'>"+item.currency_code+"</p>";
   console.log(currencyCode);
   itemImage = "<img src='" + item.Images[0].url_170x135 +"'/img>";
   console.log(itemImage);

@@ -3,14 +3,93 @@
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
 // Custom Styles
+body{
+  background-color:HSLA(60, 17%, 95%, 1);
+}
+#container{
+  width:1015px;
+  height:4211px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.left_nav_container{
+  height:1130px;
+  width:222px;
+  float:left;
+  background-color:white;
+
+  .left_nav{
+    list-style:none;
+    li{
+      border-bottom-style:solid;
+      border-width:1px;
+      border-color
+
+    h2 {
+      float:left;
+      clear:both;
+    }
+
+      a{
+      float:left;
+      clear:both;
+      }
+    }
+  }
+}
+
+
+
 .search_results{
-  width:728px;
+  width:785px;
   height:3803px;
   float:right;
+
   li{
-    width:224px;
+    width:220px;
     height:220px;
-    margin:0;
+    margin-bottom:18px;
+    margin-right:28px;
+    padding:0;
     float:left;
-;  }
+    list-style:none;
+    overflow:hidden;
+    background-color:white;
+    border-style:solid;
+    border-width:1px;
+
+    img{
+      height:170px;
+      width:214px;
+      padding:1px;
+      margin-left:2px;
+      margin-right:2px;
+      margin-top:2px;
+
+      }
+
+    .titles {
+      height: 15px;
+      font-size: 12px;
+      overflow: hidden;
+      float: left;
+      }
+
+    .shops{
+        float:left;
+        height:15px;
+        font-size:11px;
+        clear: both;
+      }
+
+      .prices, .currency{
+        clear:right;
+        color: HSLA(94, 50%, 51%, 1);
+    
+
+
+      }
+  }
 }
