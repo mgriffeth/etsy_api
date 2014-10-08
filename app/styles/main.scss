@@ -21,21 +21,27 @@ body{
   background-color:white;
   overflow:hidden;
 
-  .left_nav{
-    list-style:none;
-    li{
-
-      border-width:1px;
-      border-color
-
-    h2 {
+  .sidebar_lists{
+    h4{
       float:left;
-      clear:both;
     }
 
-      a{
+    ul{
       float:left;
-      clear:both;
+      padding:0;
+      border-bottom-style:solid;
+      border-width:1px;
+      li{
+        list-style:none;
+        float:left;
+        h3 {
+          float:left;
+          clear:both;
+          }
+        a{
+        float:left;
+        clear:both;
+        }
       }
     }
   }
