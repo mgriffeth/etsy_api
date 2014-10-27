@@ -1,3 +1,11 @@
-## Yo, I'm a Readme
+etsy
+_________________________
+-playing with etsy api
+_________________________
+How to use it:
+  Clone my repo,
+  Run npm install,
+  Run bower install
+  __________________________
+libraries used (jQuery, Underscore)
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
